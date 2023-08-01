@@ -4,7 +4,16 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    screens: {
+      'mob': {'max': '767px'},
+      'smlap': {'max': '1024px'},
+      'revsmlap': '1024px'
+    },
+    extend: {
+      fontFamily:{
+        'Agrandir': ['Agrandir']
+      }
+    },
   },
   plugins: [],
 }

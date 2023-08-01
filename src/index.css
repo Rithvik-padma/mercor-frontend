@@ -2,13 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-html,body,.App {
-  width: 100dvw;
-  height: 100dvh;
+@layer base{
+  @font-face{
+    font-family: 'Agrandir';
+    src: url(./fonts/PPAgrandir-GrandHeavy.otf);
+  }
+}
+
+html,body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+
+section {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:darkgray;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: darkgray;
+  opacity: 0.5;
 }
