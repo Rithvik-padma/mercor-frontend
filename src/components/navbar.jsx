@@ -1,4 +1,5 @@
 import React from 'react'
+import {GiHamburgerMenu} from 'react-icons/gi'
 
 const Navbar = () => {
   return (
@@ -19,8 +20,10 @@ const Navbar = () => {
             <div>STATUS</div>
             <div>CODEBLOG</div>
         </div>
-        <div className='revsmlap:hidden w-full flex-end pl-2'>
-            <button></button>
+        <div className='revsmlap:hidden w-full flex justify-end items-center pr-6'>
+            <button>
+                <GiHamburgerMenu className='text-white w-8 h-8' /> 
+            </button>
         </div>
         <img 
             src="/assets/eye.png" 
