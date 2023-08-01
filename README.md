@@ -1,2 +1,2 @@
-# mercor-frontend
-Recruitment task for mercor frontend developer role
+# Mercor Frontend project
+Recruitment task for Frontend developer role at Mercor
