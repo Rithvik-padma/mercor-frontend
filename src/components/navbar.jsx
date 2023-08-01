@@ -1,10 +1,19 @@
 import React,{useState} from 'react'
 import {GiHamburgerMenu} from 'react-icons/gi'
+import {VscClose} from 'react-icons/vsc'
+import { motion } from 'framer-motion'
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false)
 
     const handleMenu = () => setShowMenu(!showMenu)
+    const container = {
+        closed: { opacity: 0, width:'0vw' },
+        open: {
+          opacity: 1,
+          width:'100vw',
+        }
+    }
 
     return (
         <div className='flex w-[100dvw] justify-between items-center p-4 pl-6 pr-8 overflow-hidden'>
@@ -31,6 +40,28 @@ const Navbar = () => {
                 <button onClick={handleMenu}>
                     <GiHamburgerMenu className='text-white w-7 h-7' /> 
                 </button>
+                <motion.div
+                    className='absolute top-0 left-0 h-[100dvh] bg-black z-50 flex justify-center items-center gap-6 text-white font-Agrandir text-[12px]'
+                    animate={showMenu ? 'open' : 'closed'}
+                    initial='closed'
+                    variants={container}
+                >   
+                    <div className='flex flex-col gap-5 text-lg'>
+                        <div>LEGAL</div>
+                        <div>LICENSES</div>
+                        <div>SECURITY</div>
+                        <div>CAREERS</div>
+                        <div>PRESS</div>
+                        <div>SUPPORT</div>
+                        <div>STATUS</div>
+                        <div>CODEBLOG</div>
+                        <div className='absolute top-3 right-2'>
+                            <button onClick={handleMenu}>
+                                <VscClose className='text-white w-10 h-10'/>
+                            </button>
+                        </div>
+                    </div>
+                </motion.div>
             </div>
             <img 
                 src="/assets/eye.png" 
