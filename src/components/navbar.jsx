@@ -16,7 +16,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className='flex w-[100dvw] justify-between items-center p-4 pl-6 pr-8 overflow-hidden'>
+        <div className='flex w-[100dvw] justify-between items-center p-4 pl-6 pr-8 overflow-hidden mob:px-4'>
             <img 
                 src="/assets/logo.svg" 
                 alt="CashApp Logo"
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <div>STATUS</div>
                 <div>CODEBLOG</div>
             </div>
-            <div className='revsmlap:hidden w-full flex justify-end items-center gap-6 pr-6'>
+            <div className='revsmlap:hidden w-full flex justify-end items-center gap-6 pr-6 mob:pr-4 mob:gap-4'>
                 <div className='text-white font-Agrandir text-[12px]'>
                     SIGN IN
                 </div>
