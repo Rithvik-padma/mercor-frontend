@@ -16,27 +16,27 @@ const Navbar = () => {
     }
 
     return (
-        <div className='flex w-[100dvw] justify-between items-center p-4 pl-6 pr-8 overflow-hidden'>
+        <div className='flex w-[100dvw] justify-between items-center p-4 pl-6 pr-8 overflow-hidden mob:px-4'>
             <img 
                 src="/assets/logo.svg" 
                 alt="CashApp Logo"
                 className='w-6' 
             />
             <div className='smlap:hidden flex items-center justify-center gap-6 text-white font-Agrandir text-[12px]'>
-                <div>SIGN IN</div>
-                <div>LEGAL</div>
-                <div>LICENSES</div>
-                <div>SECURITY</div>
-                <div>CAREERS</div>
-                <div>PRESS</div>
-                <div>SUPPORT</div>
-                <div>STATUS</div>
-                <div>CODEBLOG</div>
+                <button>SIGN IN</button>
+                <button>LEGAL</button>
+                <button>LICENSES</button>
+                <button>SECURITY</button>
+                <button>CAREERS</button>
+                <button>PRESS</button>
+                <button>SUPPORT</button>
+                <button>STATUS</button>
+                <button>CODEBLOG</button>
             </div>
-            <div className='revsmlap:hidden w-full flex justify-end items-center gap-6 pr-6'>
-                <div className='text-white font-Agrandir text-[12px]'>
+            <div className='revsmlap:hidden w-full flex justify-end items-center gap-6 pr-6 mob:pr-4 mob:gap-4'>
+                <button className='text-white font-Agrandir text-[12px]'>
                     SIGN IN
-                </div>
+                </button>
                 <button onClick={handleMenu}>
                     <GiHamburgerMenu className='text-white w-7 h-7' /> 
                 </button>
@@ -46,15 +46,15 @@ const Navbar = () => {
                     initial='closed'
                     variants={container}
                 >   
-                    <div className='flex flex-col gap-5 text-lg'>
-                        <div>LEGAL</div>
-                        <div>LICENSES</div>
-                        <div>SECURITY</div>
-                        <div>CAREERS</div>
-                        <div>PRESS</div>
-                        <div>SUPPORT</div>
-                        <div>STATUS</div>
-                        <div>CODEBLOG</div>
+                    <div className='flex flex-col gap-6 text-lg'>
+                        <button>LEGAL</button>
+                        <button>LICENSES</button>
+                        <button>SECURITY</button>
+                        <button>CAREERS</button>
+                        <button>PRESS</button>
+                        <button>SUPPORT</button>
+                        <button>STATUS</button>
+                        <button>CODEBLOG</button>
                         <div className='absolute top-3 right-2'>
                             <button onClick={handleMenu}>
                                 <VscClose className='text-white w-10 h-10'/>
