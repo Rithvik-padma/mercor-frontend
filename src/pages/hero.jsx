@@ -16,9 +16,14 @@ const Hero = () => {
             <img 
                 src="/assets/intro-phone-1.png" 
                 alt="Intro phone"
-                className='h-full w-auto object-cover absolute z-[-10] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]' 
+                className='h-full w-auto absolute z-[-10] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]' 
             />
         </div>
+        <img 
+            src="/assets/down.png" 
+            alt="Scroll down indicator"
+            className='w-7 h-9 mob:w-5 mob:h-7 absolute bottom-0 left-[50%] translate-x-[-50%] mb-6' 
+        />
     </section>
   )
 }
