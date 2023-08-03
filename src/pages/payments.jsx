@@ -57,12 +57,12 @@ const Payments = () => {
       <img 
         src="/assets/payments-pillar-large.png"
         alt="Payments pillar large"
-        className='absolute bottom-[8.4%] right-[33%] smlap:bottom-[77%] smlap:right-[67%] mob:h-[120px]' 
+        className='absolute bottom-[8.4%] right-[33%] smlap:bottom-[79%] smlap:right-[67%] mob:h-[120px]' 
       />
       <img 
         src="/assets/payments-pillar-medium.png"
         alt="Payments pillar medium"
-        className='absolute bottom-[24%] h-[230px] right-[14.5%] smlap:bottom-[80%] mob:h-[145px]' 
+        className='absolute bottom-[24%] h-[230px] right-[14.5%] smlap:bottom-[82%] mob:h-[145px]' 
       />
     </section>
   )
