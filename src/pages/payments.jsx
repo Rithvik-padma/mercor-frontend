@@ -8,7 +8,7 @@ const Payments = () => {
           <h1 className='text-2xl mob:text-xl font-Agrandir text-[#00D54B]'>
             Payments
           </h1>
-          <p className='revsmlap:w-[350px] font-Mulish mob:text-sm'>
+          <p className='revsmlap:w-[350px] mob:w-[86dvw] font-Mulish mob:text-sm'>
           Send and receive money with anyone, donate  to an important cause, or tip professionals. 
           Just enter a $cashtag, phone number, or 
           scan their  QR code to pay.
