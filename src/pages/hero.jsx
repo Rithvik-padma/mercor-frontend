@@ -33,7 +33,7 @@ const Hero = () => {
             <img 
                 src="/assets/intro-stairs-1.png" 
                 alt="Intro Stairs"
-                className='z-5 absolute right-[12%] w-52 smlap:right-[8%] smlap:w-48 smlap:top-[10%] mob:!right-[6%] mob:!w-28' 
+                className='z-5 absolute right-[12%] w-52 smlap:right-[3%] smlap:w-44 smlap:top-[10%] mob:!right-[6%] mob:!w-28' 
             />
             <img 
                 src="/assets/intro-cubes-1.png" 
@@ -43,7 +43,7 @@ const Hero = () => {
             <img 
                 src="/assets/intro-pillar-1.png" 
                 alt="Intro Pillar 1"
-                className='absolute right-[20%] bottom-[-11%] w-72 smlap:right-[9%] smlap:bottom-[-5%] smlap:w-72 mob:!right-[-10%] mob:!bottom-[7%] mob:!w-40' 
+                className='absolute right-[18%] bottom-[-11%] w-72 smlap:right-[-7%] smlap:bottom-[-5%] smlap:w-72 mob:!right-[-10%] mob:!bottom-[7%] mob:!w-40' 
             />
         </div>
     </section>
