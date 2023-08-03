@@ -22,12 +22,12 @@ const Payments = () => {
       <img 
         src="/assets/payments-column-1.png"
         alt="Payments column 1"
-        className='absolute bottom-0 w-[180px] smlap:w-[135px] mob:!w-[60px] z-[5]' 
+        className='absolute bottom-0 w-[180px] smlap:w-[135px] mob:!w-[60px] mob:!bottom-[-5%] z-[5]' 
       />
       <img 
         src="/assets/payments-column-2.png"
         alt="Payments column 2"
-        className='absolute bottom-0 h-[410px] right-[17%] z-10 smlap:h-[320px] smlap:right-[7%] mob:!h-[155px] mob:!right-[5%] mob:!z-0' 
+        className='absolute bottom-0 h-[410px] right-[17%] z-10 smlap:h-[320px] smlap:right-[7%] mob:!h-[155px] mob:!right-[5%] mob:!bottom-[-5%] mob:!z-0' 
       />
       <img 
         src="/assets/payments-column-3.png"
