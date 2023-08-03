@@ -11,7 +11,8 @@ module.exports = {
     },
     extend: {
       fontFamily:{
-        'Agrandir': ['Agrandir']
+        'Agrandir': ['Agrandir'],
+        'Mulish': ['Mulish'],
       }
     },
   },
