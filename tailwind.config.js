@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     screens: {
       'mob': {'max': '750px'},
-      'smlap': {'max': '1024px'},
-      'revsmlap': '1024px'
+      'smlap': {'max': '1100px'},
+      'revsmlap': '1100px'
     },
     extend: {
       fontFamily:{
