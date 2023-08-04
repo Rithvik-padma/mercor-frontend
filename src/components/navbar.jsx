@@ -19,7 +19,7 @@ const Navbar = () => {
     return (
         <div>
             <motion.div
-                className='revsmlap:hidden absolute top-0 left-0 h-[100vh] bg-black z-50 flex justify-center items-center gap-6 text-white font-Agrandir text-[12px]'
+                className='revsmlap:hidden fixed top-0 left-0 h-[100vh] bg-black z-50 flex justify-center items-center gap-6 text-white font-Agrandir text-[12px]'
                 animate={showMenu ? 'open' : 'closed'}
                 initial='closed'
                 variants={container}
