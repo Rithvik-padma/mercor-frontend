@@ -33,6 +33,46 @@ const Banking = () => {
         alt="Banking Stairs 2"
         className='absolute bottom-[13%] left-[4%] z-10' 
       />
+      <img
+        src="/assets/banking-ramp-2.png" 
+        alt="Banking Ramp 2"
+        className='absolute bottom-[4%] left-[13%]' 
+      />
+      <img
+        src="/assets/banking-tube.png" 
+        alt="Banking Tube"
+        className='absolute bottom-0 left-[36%]' 
+      />
+      <img
+        src="/assets/banking-hole-b.png" 
+        alt="Banking Hole bottom"
+        className='absolute bottom-0 right-[19%]' 
+      />
+      <img
+        src="/assets/banking-monster.png" 
+        alt="Banking Monster"
+        className='absolute bottom-[7%] right-[5%]' 
+      />
+      <img
+        src="/assets/banking-cubes.png" 
+        alt="Banking Cubes"
+        className='absolute bottom-[11%] right-[20%]' 
+      />
+      <img
+        src="/assets/banking-stairs-1.png" 
+        alt="Banking Stairs 1"
+        className='absolute bottom-[30%] right-[9%]' 
+      />
+      <img
+        src="/assets/banking-ramp-1.png" 
+        alt="Banking Ramp 1"
+        className='absolute bottom-[47%] right-[20%]' 
+      />
+      <img
+        src="/assets/banking-track-2.png" 
+        alt="Banking Track 2"
+        className='absolute top-[1%] right-[12%]' 
+      />
     </section>
   )
 }
