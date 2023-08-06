@@ -21,7 +21,7 @@ const Banking = () => {
       <img
         src="/assets/banking-hole.png" 
         alt="Banking hole top"
-        className='absolute top-0 left-0 smlap:w-[240px]' 
+        className='absolute top-0 left-0 smlap:w-[240px] mob:!w-[150px]' 
       />
       <img
         src="/assets/banking-column.png" 
@@ -29,7 +29,7 @@ const Banking = () => {
         className='absolute top-[14%] left-[5%] z-10 mdlap:scale-[!80%]'
         src="/assets/banking-stairs-2.png" 
         alt="Banking Stairs 2"
-        className='absolute bottom-[13%] left-[4%] z-10' 
+        className='absolute bottom-[13%] left-[4%] z-10 mob:hidden' 
       />
       <img
         src="/assets/banking-ramp-2.png" 
@@ -49,7 +49,7 @@ const Banking = () => {
       <img
         src="/assets/banking-monster.png" 
         alt="Banking Monster"
-        className='absolute bottom-[7%] right-[5%]' 
+        className='absolute bottom-[7%] right-[5%] mob:bottom-[10%]' 
       />
       <img
         src="/assets/banking-cubes.png" 
@@ -59,7 +59,7 @@ const Banking = () => {
       <img
         src="/assets/banking-stairs-1.png" 
         alt="Banking Stairs 1"
-        className='absolute bottom-[30%] right-[9%]' 
+        className='absolute bottom-[30%] right-[9%] mob:hidden' 
       />
       <img
         src="/assets/banking-ramp-1.png" 
@@ -69,7 +69,7 @@ const Banking = () => {
       <img
         src="/assets/banking-track-2.png" 
         alt="Banking Track 2"
-        className='absolute top-[1%] right-[12%] smlap:right-[6%] smlap:w-[220px]' 
+        className='absolute top-[1%] right-[12%] smlap:right-[6%] smlap:w-[220px] mob:!w-[180px] mob:!top-[5%]' 
       />
     </section>
   )
