@@ -49,7 +49,7 @@ const Banking = () => {
       <img
         src="/assets/banking-monster.png" 
         alt="Banking Monster"
-        className='absolute bottom-[7%] right-[5%] mob:bottom-[10%]' 
+        className='absolute bottom-[7%] right-[5%] mob:bottom-[9%]' 
       />
       <img
         src="/assets/banking-cubes.png" 
@@ -69,7 +69,7 @@ const Banking = () => {
       <img
         src="/assets/banking-track-2.png" 
         alt="Banking Track 2"
-        className='absolute top-[1%] right-[12%] smlap:right-[6%] smlap:w-[220px] mob:!w-[180px] mob:!top-[5%]' 
+        className='absolute top-[1%] right-[12%] smlap:right-[6%] smlap:w-[220px] mob:!w-[160px] mob:!top-[5%]' 
       />
     </section>
   )
