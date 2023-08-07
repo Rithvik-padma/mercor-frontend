@@ -8,7 +8,7 @@ const Boost = () => {
           <h1 className='text-3xl mob:text-xl font-Agrandir text-[#00D54B]'>
             Cash Card & Boost
           </h1>
-          <p className='revsmlap:w-[350px] mob:w-[92.4vw] text-white font-Mulish mob:text-sm'>
+          <p className='revsmlap:w-[350px] mob:w-[86dvw] text-white font-Mulish mob:text-sm'>
             The Cash Card is a free, customizable debit card that lets you pay online and in stores. It’s the only way to get Boosts—instant discounts that work at places where you want to spend.
           </p>
         </div>
