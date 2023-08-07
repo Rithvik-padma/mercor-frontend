@@ -6,7 +6,7 @@ const Footer = ({themeColor}) => {
   useEffect(() => setAntiThemeColor(themeColor === 'white' ? 'black' : 'white')) 
 
   return (
-    <footer className='absolute w-[100dvw] bottom-0 flex flex-row justify-between p-6 px-14 mdlap:px-10'>
+    <footer className='absolute w-[100dvw] bottom-0 flex flex-row justify-between p-6 px-14 mdlap:px-10 smlap:hidden'>
       <div className='flex flex-row items-center gap-5'>
         <button className={`p-5 py-3 flex items-center justify-center gap-3 border-[1px] !border-${antiThemeColor} rounded-md bg-${themeColor}`}>
           <img 

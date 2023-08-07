@@ -64,7 +64,7 @@ const Investing = () => {
       <img 
         src="/assets/investing-floor-mobile.png" 
         alt="Investing Floor Mobile" 
-        className='absolute bottom-0 w-full bg-white mob:h-[46%]'
+        className='absolute bottom-0 w-full bg-white mob:h-[46%] revmob:hidden'
       />
       <Footer themeColor={'white'}/>
     </section>
