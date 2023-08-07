@@ -7,7 +7,7 @@ const Investing = () => {
         <h1 className='text-3xl mob:text-xl font-Agrandir text-white'>
           Investing
         </h1>
-        <div className='w-[86dvw] flex flex-row gap-20 smlap:gap-10 mob:!h-full items-center mob:!flex-col mob:!h-full mob:!justify-evenly'>
+        <div className='w-[86dvw] flex flex-row gap-20 smlap:gap-10 mob:!h-full items-center mob:!flex-col mob:!h-full mob:!justify-evenly mob:!pb-7'>
           <div className='flex flex-row gap-8 justify-center items-center smlap:flex-row-reverse mob:!flex-col-reverse'>
             <div className='revsmlap:-translate-y-[50%]'>
               <h1 className='text-xl text-black font-Agrandir mob:!text-[16px]'>
