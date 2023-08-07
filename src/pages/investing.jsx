@@ -3,14 +3,14 @@ import React from 'react'
 const Investing = () => {
   return (
     <section className='h-[100dvh] bg-[#00D54B] snap-start relative'>
-      <div className='absolute w-[100%] top-[50%] left-[50%] -translate-x-[50%] -translate-y-[58%] flex flex-col gap-20 items-center'>
+      <div className='absolute w-[100%] top-[50%] left-[50%] -translate-x-[50%] -translate-y-[60%] flex flex-col gap-16 items-center z-50'>
         <h1 className='text-3xl mob:text-xl font-Agrandir text-white'>
           Investing
         </h1>
         <div className='flex flex-row gap-20 items-center mob:flex-col'>
           <div className='flex flex-row gap-8 justify-center items-center'>
-            <div className='-translate-y-[30%]'>
-              <h1 className='text-2xl text-black font-Agrandir mob:text-lg'>
+            <div className='-translate-y-[50%]'>
+              <h1 className='text-xl text-black font-Agrandir mob:text-lg'>
                 Stocks
               </h1>
               <p className='revsmlap:w-[350px] mob:w-[86dvw] text-black font-Mulish mob:text-sm'>
@@ -29,8 +29,8 @@ const Investing = () => {
               alt="Investing Bitcoin" 
               className='block'
             />
-            <div className='-translate-y-[30%]'>
-              <h1 className='text-2xl text-black font-Agrandir mob:text-lg'>
+            <div className='-translate-y-[50%]'>
+              <h1 className='text-xl text-black font-Agrandir mob:text-lg'>
                 Bitcoin
               </h1>
               <p className='revsmlap:w-[350px] mob:w-[86dvw] text-black font-Mulish mob:text-sm'>
@@ -40,6 +40,26 @@ const Investing = () => {
           </div>
         </div>
       </div>
+      <img 
+        src="/assets/investing-rays.png" 
+        alt="Investing Rays" 
+        className='absolute h-full w-full'
+      />
+      <img 
+        src="/assets/investing-floor.png" 
+        alt="Investing Floor" 
+        className='absolute bottom-0 w-full'
+      />
+      <img 
+        src="/assets/investing-graph-1.png" 
+        alt="Investing Graph 1" 
+        className='absolute left-0 bottom-0'
+      />
+      <img 
+        src="/assets/investing-graph-2.png" 
+        alt="Investing Graph 2" 
+        className='absolute right-0 bottom-[35%]'
+      />
     </section>
   )
 }
