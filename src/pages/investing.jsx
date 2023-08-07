@@ -3,11 +3,11 @@ import React from 'react'
 const Investing = () => {
   return (
     <section className='h-[100dvh] bg-[#00D54B] snap-start relative'>
-      <div className='absolute w-[100%] mob:!h-[85%] sm:top-[50%] left-[50%] -translate-x-[50%] revsmlap:-translate-y-[60%] smlap:top-[3%] flex flex-col gap-16 smlap:gap-12 mob:!gap-8 items-center z-50 mob:!justify-center'>
+      <div className='absolute w-[100%] mob:!h-[100%] mob:top-[2%] sm:top-[50%] left-[50%] -translate-x-[50%] revsmlap:-translate-y-[60%] smlap:top-[3%] flex flex-col gap-16 smlap:gap-12 mob:!gap-5 items-center z-50 mob:!justify-center'>
         <h1 className='text-3xl mob:text-xl font-Agrandir text-white'>
           Investing
         </h1>
-        <div className='w-[86dvw] flex flex-row gap-20 mob:!h-full smlap:gap-10 items-center mob:!flex-col mob:!h-full mob:!justify-around'>
+        <div className='w-[86dvw] flex flex-row gap-20 smlap:gap-10 mob:!h-full items-center mob:!flex-col mob:!h-full mob:!justify-evenly'>
           <div className='flex flex-row gap-8 justify-center items-center smlap:flex-row-reverse mob:!flex-col-reverse'>
             <div className='revsmlap:-translate-y-[50%]'>
               <h1 className='text-xl text-black font-Agrandir mob:!text-[16px]'>
@@ -48,7 +48,7 @@ const Investing = () => {
       <img 
         src="/assets/investing-floor.png" 
         alt="Investing Floor" 
-        className='absolute bottom-0 w-full mob:h-[50%]'
+        className='absolute bottom-0 w-full mob:h-[46%]'
       />
       <img 
         src="/assets/investing-graph-1.png" 
