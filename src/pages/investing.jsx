@@ -3,11 +3,11 @@ import React from 'react'
 const Investing = () => {
   return (
     <section className='h-[100dvh] bg-[#00D54B] snap-start relative overflow-y-hidden'>
-      <div className='absolute w-[100%] mob:!h-[100%] mob:top-[2%] sm:top-[50%] left-[50%] -translate-x-[50%] revsmlap:-translate-y-[60%] smlap:top-[3%] flex flex-col gap-16 smlap:gap-12 mob:!gap-5 items-center z-50 mob:!justify-center'>
+      <div className='absolute w-[100%] mob:!h-[100%] mob:top-[2%] revsmlap:top-[50%] left-[50%] -translate-x-[50%] revsmlap:-translate-y-[60%] smlap:top-[3%] flex flex-col gap-16 smlap:gap-12 mob:!gap-5 items-center z-50 mob:!justify-center'>
         <h1 className='text-3xl mob:text-xl font-Agrandir text-white'>
           Investing
         </h1>
-        <div className='w-[86dvw] flex flex-row gap-20 smlap:gap-10 mob:!h-full items-center mob:!flex-col mob:!h-full mob:!justify-evenly mob:!pb-7'>
+        <div className='mob:w-[86dvw] flex flex-row gap-20 smlap:gap-10 mob:!h-full items-center mob:!flex-col mob:!h-full mob:!justify-evenly mob:!pb-7'>
           <div className='flex flex-row gap-8 justify-center items-center smlap:flex-row-reverse mob:!flex-col-reverse'>
             <div className='revsmlap:-translate-y-[50%]'>
               <h1 className='text-xl text-black font-Agrandir mob:!text-[16px]'>
@@ -23,7 +23,7 @@ const Investing = () => {
               className='block smlap:w-[100px] mob:!w-[50px]'
             />
           </div>
-          <div className='w-[86dvw] flex flex-row gap-8 justify-center items-center mob:!flex-col'>
+          <div className='flex flex-row gap-8 justify-center items-center mob:!flex-col'>
             <img 
               src="/assets/investing-bitcoin.png" 
               alt="Investing Bitcoin" 
@@ -48,7 +48,7 @@ const Investing = () => {
       <img 
         src="/assets/investing-floor.png" 
         alt="Investing Floor" 
-        className='absolute bottom-0 w-full mob:h-[46%]'
+        className='absolute bottom-0 w-full mob:h-[46%] mob:hidden'
       />
       <img 
         src="/assets/investing-graph-1.png" 
@@ -59,6 +59,11 @@ const Investing = () => {
         src="/assets/investing-graph-2.png" 
         alt="Investing Graph 2" 
         className='absolute right-0 bottom-[35%] mob:hidden'
+      />
+      <img 
+        src="/assets/investing-floor-mobile.png" 
+        alt="Investing Floor Mobile" 
+        className='absolute bottom-0 w-full bg-white mob:h-[46%]'
       />
     </section>
   )
