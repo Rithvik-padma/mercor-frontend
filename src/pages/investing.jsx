@@ -2,7 +2,7 @@ import React from 'react'
 
 const Investing = () => {
   return (
-    <section className='h-[100dvh] bg-[#00D54B] snap-start relative'>
+    <section className='h-[100dvh] bg-[#00D54B] snap-start relative overflow-y-hidden'>
       <div className='absolute w-[100%] mob:!h-[100%] mob:top-[2%] sm:top-[50%] left-[50%] -translate-x-[50%] revsmlap:-translate-y-[60%] smlap:top-[3%] flex flex-col gap-16 smlap:gap-12 mob:!gap-5 items-center z-50 mob:!justify-center'>
         <h1 className='text-3xl mob:text-xl font-Agrandir text-white'>
           Investing
