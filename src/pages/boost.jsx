@@ -18,6 +18,11 @@ const Boost = () => {
           className='mob:w-[150px]'
         />
       </div>
+      <img
+        src="/assets/boost-stairs-2.png" 
+        alt="Boost Stairs 2" 
+        className='absolute bottom-0 left-0'
+      />
     </section>
   )
 }
