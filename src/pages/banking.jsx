@@ -26,7 +26,7 @@ const Banking = () => {
       <img
         src="/assets/banking-column.png" 
         alt="Banking column" 
-        className='absolute top-[14%] left-[5%] z-10 mdlap:scale-[!80%]'
+        className='absolute top-[14%] left-[5%] z-10 mdlap:scale-[!80%] mob:hidden'
       />
       <img
         src="/assets/banking-stairs-2.png" 
