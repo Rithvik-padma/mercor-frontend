@@ -3,8 +3,8 @@ import React from 'react'
 const Boost = () => {
   return (
     <section className='h-[100dvh] bg-black snap-start relative'>
-      <div className='absolute flex items-center smlap:flex-col-reverse revsmlap:w-[370px] top-[50%] right-[50%] -translate-y-[50%] -translate-x-[25%] smlap:w-[300px] smlap:translate-x-[50%] smlap:gap-8 mob:!w-[200px] z-50'>
-        <div className='relative z-10'>
+      <div className='absolute flex items-center gap-10 smlap:flex-col-reverse revsmlap:w-[24vw] top-[54%] right-[50%] -translate-y-[50%] -translate-x-[22%] smlap:w-[300px] smlap:translate-x-[50%] smlap:gap-8 mob:!w-[200px] z-50'>
+        <div className='relative z-10 revsmlap:bottom-20'>
           <h1 className='text-3xl mob:text-xl font-Agrandir text-[#00D54B]'>
             Cash Card & Boost
           </h1>
@@ -15,13 +15,18 @@ const Boost = () => {
         <img
           src="/assets/boost-phone.png" 
           alt="Boost phone" 
-          className='mob:w-[150px]'
+          className='smlap:w-[150px] revsmlap:w-[70%]'
         />
       </div>
       <img
         src="/assets/boost-stairs-2.png" 
         alt="Boost Stairs 2" 
-        className='absolute bottom-0 left-0'
+        className='absolute bottom-0 left-0 w-[23%]'
+      />
+      <img
+        src="/assets/boost-stairs-1.png" 
+        alt="Boost Stairs 1" 
+        className='absolute bottom-0 right-0 w-[60%]'
       />
     </section>
   )
