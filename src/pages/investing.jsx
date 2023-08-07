@@ -9,7 +9,7 @@ const Investing = () => {
           Investing
         </h1>
         <div className='mob:w-[86dvw] flex flex-row gap-20 smlap:gap-10 mob:!h-full items-center mob:!flex-col mob:!h-full mob:!justify-evenly mob:!pb-7'>
-          <div className='flex flex-row gap-8 justify-center items-center smlap:flex-row-reverse mob:!flex-col-reverse'>
+          <div className='flex flex-row gap-8 justify-center items-center smlap:flex-row-reverse mob:!flex-col-reverse mob:!gap-6'>
             <div className='revsmlap:-translate-y-[50%]'>
               <h1 className='text-xl text-black font-Agrandir mob:!text-[16px]'>
                 Stocks
@@ -24,7 +24,7 @@ const Investing = () => {
               className='block smlap:w-[100px] mob:!w-[50px]'
             />
           </div>
-          <div className='flex flex-row gap-8 justify-center items-center mob:!flex-col'>
+          <div className='flex flex-row gap-8 justify-center items-center mob:!flex-col mob:!gap-6'>
             <img 
               src="/assets/investing-bitcoin.png" 
               alt="Investing Bitcoin" 
