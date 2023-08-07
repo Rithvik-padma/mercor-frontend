@@ -4,7 +4,7 @@ const Boost = () => {
   return (
     <section className='h-[100dvh] bg-black snap-start relative'>
       <div className='absolute flex items-center gap-10 smlap:flex-col-reverse revsmlap:w-[24vw] top-[50%] right-[50%] -translate-y-[50%] -translate-x-[22%] mob:top-[42%] smlap:w-[300px] smlap:translate-x-[50%] smlap:gap-8 mob:!w-[200px] z-50'>
-        <div className='relative z-10 revsmlap:bottom-20'>
+        <div className='relative z-10 revsmlap:bottom-16'>
           <h1 className='text-3xl mob:text-xl font-Agrandir text-[#00D54B]'>
             Cash Card & Boost
           </h1>
@@ -15,7 +15,7 @@ const Boost = () => {
         <img
           src="/assets/boost-phone.png" 
           alt="Boost phone" 
-          className='smlap:w-[150px] revsmlap:w-[70%]'
+          className='smlap:w-[150px] revsmlap:w-[70%] revsmlap:translate-y-[7%]'
         />
       </div>
       <img
