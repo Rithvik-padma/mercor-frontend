@@ -31,27 +31,27 @@ const Boost = () => {
       <img
         src="/assets/boost-shoe.png" 
         alt="Boost Shoe"
-        className='absolute bottom-[34.7%] right-[1.4%] w-[6.5%] smlap:hidden'
+        className='absolute bottom-[34.7%] right-[1.4%] w-[6.5%] smlap:!hidden mdlap:translate-y-[15%]'
       />
       <img
         src="/assets/boost-coffee.png" 
         alt="Boost Coffee" 
-        className='absolute bottom-[16%] right-[20%] w-[5%] smlap:hidden'
+        className='absolute bottom-[16%] right-[20%] w-[5%] smlap:hidden mdlap:translate-y-[15%]'
       />
       <img
         src="/assets/boost-burger.png" 
         alt="Boost Burger" 
-        className='absolute bottom-[35%] right-[26.5%] w-[4.8%] smlap:hidden'
+        className='absolute bottom-[35%] right-[26.5%] w-[4.8%] smlap:hidden mdlap:translate-y-[15%]'
       />
       <img
         src="/assets/boost-card.png" 
         alt="Boost Card" 
-        className='absolute bottom-[53%] right-[20%] w-[5%] smlap:hidden'
+        className='absolute bottom-[53%] right-[20%] w-[5%] smlap:hidden mdlap:translate-y-[15%]'
       />
       <img
         src="/assets/boost-hand.png" 
         alt="Boost Hand" 
-        className='absolute top-[14.5%] right-[13%] w-[4.7%] smlap:hidden'
+        className='absolute top-[14.7%] right-[13%] w-[4.7%] smlap:hidden mdlap:translate-y-[25%]'
       />
     </section>
   )

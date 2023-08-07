@@ -8,7 +8,7 @@ module.exports = {
       'mob': {'max': '750px'},
       'smlap': {'max': '1200px'},
       'revsmlap': '1200px',
-      'mdlap': {'max': '1300px'}
+      'mdlap': {'max': '1350px'}
     },
     extend: {
       fontFamily:{
