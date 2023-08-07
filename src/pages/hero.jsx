@@ -47,7 +47,7 @@ const Hero = () => {
                 className='absolute right-[18%] bottom-[-11%] w-72 smlap:right-[-7%] smlap:bottom-[-5%] smlap:w-72 mob:!right-[-10%] mob:!bottom-[7%] mob:!w-40' 
             />
         </div>
-        <Footer themeColor={'dark'}/>
+        <Footer themeColor={'black'}/>
     </section>
   )
 }

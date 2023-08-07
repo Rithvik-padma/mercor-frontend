@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/footer'
 
 const Investing = () => {
   return (
@@ -65,6 +66,7 @@ const Investing = () => {
         alt="Investing Floor Mobile" 
         className='absolute bottom-0 w-full bg-white mob:h-[46%]'
       />
+      <Footer themeColor={'white'}/>
     </section>
   )
 }
