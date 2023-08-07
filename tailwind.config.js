@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'mob': {'max': '750px'},
+      'mob': {'max': '920px'},
       'smlap': {'max': '1200px'},
       'revsmlap': '1200px',
       'mdlap': {'max': '1350px'}
