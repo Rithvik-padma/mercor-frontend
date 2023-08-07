@@ -5,7 +5,7 @@ const Payments = () => {
     <section className='h-[100dvh] bg-[#F8F6F6] snap-start relative overflow-y-hidden'>
       <div className='absolute flex items-center smlap:flex-col-reverse revsmlap:w-[650px] top-[50%] right-[50%] -translate-y-[50%] translate-x-[7%] smlap:translate-x-[50%] smlap:gap-10 mob:w-[300px] z-20'>
         <div className='relative z-10 revsmlap:left-52 revsmlap:bottom-10'>
-          <h1 className='text-2xl mob:text-xl font-Agrandir text-[#00D54B]'>
+          <h1 className='text-3xl mob:text-xl font-Agrandir text-[#00D54B]'>
             Payments
           </h1>
           <p className='revsmlap:w-[350px] mob:w-[86dvw] font-Mulish mob:text-sm'>
