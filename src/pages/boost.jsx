@@ -15,7 +15,7 @@ const Boost = () => {
         <img
           src="/assets/boost-phone.png" 
           alt="Boost phone" 
-          className='smlap:w-[150px] revsmlap:w-[70%] revsmlap:translate-y-[7%]'
+          className='smlap:w-[150px] revsmlap:w-[70%] revsmlap:translate-y-[5%]'
         />
       </div>
       <img
@@ -46,12 +46,12 @@ const Boost = () => {
       <img
         src="/assets/boost-card.png" 
         alt="Boost Card" 
-        className='absolute bottom-[53%] right-[20%] w-[5%] smlap:hidden mdlap:translate-y-[15%]'
+        className='absolute bottom-[55%] right-[20%] w-[5%] smlap:hidden mdlap:translate-y-[15%]'
       />
       <img
         src="/assets/boost-hand.png" 
         alt="Boost Hand" 
-        className='absolute top-[14.7%] right-[13%] w-[4.7%] smlap:hidden mdlap:translate-y-[25%]'
+        className='absolute top-[12%] right-[13%] w-[4.7%] smlap:hidden mdlap:translate-y-[22%]'
       />
     </section>
   )
