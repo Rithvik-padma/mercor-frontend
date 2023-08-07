@@ -1,14 +1,13 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 
 const Footer = ({themeColor}) => {
-  const [antiThemeColor, setAntiThemeColor] = useState('black') 
 
-  useEffect(() => setAntiThemeColor(themeColor === 'white' ? 'black' : 'white')) 
+  const antiThemeColor = themeColor === "black" ? "white" : "black"
 
   return (
     <footer className='absolute w-[100dvw] bottom-0 flex flex-row justify-between p-6 px-14 mdlap:px-10 smlap:hidden'>
       <div className='flex flex-row items-center gap-5'>
-        <button className={`p-5 py-3 flex items-center justify-center gap-3 border-[1px] !border-${antiThemeColor} rounded-md bg-${themeColor}`}>
+        <button className={`p-5 py-3 flex items-center justify-center gap-3 border-[1px] border-${antiThemeColor}-800 rounded-md bg-${themeColor}`}>
           <img 
             src="/assets/apple-green.png" 
             alt="Apple icon"
@@ -18,7 +17,7 @@ const Footer = ({themeColor}) => {
             APP STORE
           </div>
         </button>
-        <button className={`p-5 py-3 flex items-center justify-center gap-3 border-[1px] !border-${antiThemeColor} rounded-md bg-${themeColor}`}>
+        <button className={`p-5 py-3 flex items-center justify-center gap-3 border-[1px] border-${antiThemeColor}-800 rounded-md bg-${themeColor}`}>
           <img 
             src="/assets/playstore-green.png" 
             alt="PLay Store icon"
@@ -30,7 +29,7 @@ const Footer = ({themeColor}) => {
         </button>
       </div>
       <div className='flex flex-row items-center gap-8'>
-        <p className={`${themeColor === 'black' ? '#B6B6B6' : '#606060'} text-xs font-Mulish w-[600px]`}>
+        <p className={`text-${antiThemeColor} text-xs font-Mulish w-[600px]`}>
           Brokerage services by Cash App Investing LLC, member FINRA / SIPC.
           See our BrokerCheck. Investing involves risk; you may lose money. Bitcoin trading offered by Cash App. Cash App Investing does not trade bitcoin and Cash App is not a member of FINRA or SIPC. Cash App facilitates banking services through Sutton Bank and Lincoln Savings Bank, Members FDIC.
         </p>
